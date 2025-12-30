@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.983" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\PlaywrightInit\target\test-classes;E:\PlaywrightInit\target\classes;C:\Users\User\.m2\repository\com\microsoft\playwright\playwright\1.37.0\playwright-1.37.0.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\User\.m2\repository\com\microsoft\playwright\driver\1.37.0\driver-1.37.0.jar;C:\Users\User\.m2\repository\com\microsoft\playwright\driver-bundle\1.37.0\driver-bundle-1.37.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\User\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\User\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\User\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-testng\7.16.1\cucumber-testng-7.16.1.jar;C:\Users\User\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\User\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\User\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire12388040100428110637\surefirebooter-20251230101414687_3.jar C:\Users\User\AppData\Local\Temp\surefire12388040100428110637 2025-12-30T10-14-14_543-jvmRun1 surefire-20251230101414687_1tmp surefire_0-20251230101414687_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\PlaywrightInit\target\test-classes;E:\PlaywrightInit\target\classes;C:\Users\User\.m2\repository\com\microsoft\playwright\playwright\1.37.0\playwright-1.37.0.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\User\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\User\.m2\repository\com\microsoft\playwright\driver\1.37.0\driver-1.37.0.jar;C:\Users\User\.m2\repository\com\microsoft\playwright\driver-bundle\1.37.0\driver-bundle-1.37.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\User\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\User\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\User\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\User\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\User\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\User\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\User\.m2\repository\io\cucumber\cucumber-testng\7.16.1\cucumber-testng-7.16.1.jar;C:\Users\User\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\User\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\User\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\PlaywrightInit"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire12388040100428110637\surefirebooter-20251230101414687_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="User"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\User\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="E:\PlaywrightInit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Cloudflare\Cloudflare WARP\;E:\PuTTY\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;D:\xampp\php;C:\src\flutter\bin;C:\Program Files\Java\jdk-22\\bin;C:\Users\User\AppData\Roaming\npm;C:\Users\User\Documents\apache-maven-3.9.3-bin\apache-maven-3.9.3\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login by Admin&quot;, &quot;Login&quot;](1)" classname="org.example.runner.CucumberTest" time="18.933">
+    <system-out><![CDATA[10:14:15.181 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "E:\PlaywrightInit\src\test\resources\xml\testng.xml"
+
+Scenario: Login by Admin                       # src/test/resources/feature/login.feature:5
+  Given user opens google page                 # steps.example.google.GoogleSteps.user_opens_google_page()
+  When Navigate to the cms page                # steps.example.common.CommonBehavior.navigateToTheCmsPage()
+  And Input user admin                         # steps.example.common.CommonBehavior.inputUserAdmin()
+  And Input password                           # steps.example.common.CommonBehavior.inputPassword()
+    Clicked on element: 'Locator@xpath=//button[normalize-space()='Login']'
+  And Click on login button                    # steps.example.common.CommonBehavior.clickOnLoginButton()
+    'Locator@xpath=//ul[@id='main-menu']//li//span[text()='Dashboard']//ancestor::a' is displayed
+  Then Verify access to Dashboard page success # steps.example.common.CommonBehavior.verifyAccessToDashboardPageSuccess()
+10:14:34.509 [main] INFO org.example.hooks.Hooks -- Status test script: PASSED
+10:14:34.509 [main] INFO org.example.hooks.Hooks --         Login by Admin is PASSED <3
+]]></system-out>
+  </testcase>
+</testsuite>
